@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MOzalaluddin — Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- video background -->
+  <video id="bg" autoplay muted loop playsinline preload="auto">
+    <source src="background.mp4" type="video/mp4" />
+  </video>
+  <div class="grade"></div>
+  <div class="scanlines"></div>
+
+  <!-- signature stripes -->
+  <div class="stripe"></div>
+  <div class="stripe2"></div>
+
+  <!-- big rotated name -->
+  <div class="name-tag">
+    <span class="ghost" id="nameGhost">PORTFOLIO</span>
+    <span class="solid" id="nameSolid">YOUR NAME</span>
+  </div>
+
+  <!-- wallet -->
+  <div class="wallet">
+    <div class="amount" id="walletAmount">¥ 52,163</div>
+    <div class="label">current wallet</div>
+  </div>
+
+  <!-- date / time -->
+  <div class="datetime">
+    <div class="date" id="dateLine">— / — ———</div>
+    <div class="time" id="timeLine">--:-- --</div>
+    <div class="moon">🌙 Dark Hour</div>
+  </div>
+
+  <!-- menu -->
+  <nav class="menu">
+    <div class="menu-inner" id="menuInner"></div>
+  </nav>
+
+  <!-- party chips -->
+  <div class="party" id="party"></div>
+
+  <!-- command hint -->
+  <div class="command">
+    <div class="main" id="commandMain">Use a Skill</div>
+    <div class="sub" id="commandSub">Command</div>
+  </div>
+  <div class="keys">
+    <span><b>A</b>Confirm</span>
+    <span><b>B</b>Close</span>
+  </div>
+  <div class="statusline" id="statusLine">Active // Select a command</div>
+
+  <!-- section panel -->
+  <aside class="panel" id="panel" aria-hidden="true">
+    <button class="close-x" id="closeBtn">Ⓑ CLOSE</button>
+    <div class="panel-head">
+      <div class="wedge"></div>
+      <h1 id="panelTitle">Skill</h1>
+      <div class="jp" id="panelJp">—</div>
+    </div>
+    <div id="panelBody"></div>
+  </aside>
+
+  <!-- intro -->
+  <div class="intro" id="intro">
+    <div class="logo">PORTFOLIO <i></i></div>
+    <div class="press">CLICK ANYWHERE TO BEGIN</div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
