@@ -102,6 +102,7 @@ const SECTIONS = {
         <div class="links">
           <a class="link-card" href="https://github.com/ZalalKZ" target="_blank"><span class="ico">GH</span><span><span class="l1">GitHub</span><br/><span class="l2">Code &amp; experiments</span></span></a>
           <a class="link-card" href="https://www.instagram.com/mozalaluddin14_/" target="_blank"><span class="ico">IN</span><span><span class="l1">Instagram</span><br/><span class="l2">Social Media</span></span></a>
+         <a class="link-card" href="https://www.youtube.com/@Mozzaaverse" target="_blank"><span class="ico">YT</span><span><span class="l1">Youtube</span><br/><span class="l2">Content Creator</span></span></a>      
       </div>
     `,
   },
